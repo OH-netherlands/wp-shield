@@ -21,6 +21,13 @@ Built and maintained by [Opportunity Hub B.V.](https://www.opportunityhub.io).
 
 All settings are under **Settings → WP Shield** in wp-admin.
 
+## Requirements
+
+- WordPress 5.8 or later (tested up to 6.7, as listed in `readme.txt`)
+- PHP 7.4 or later
+
+There is no automated test suite yet. Please report problems you find.
+
 ## Installation
 
 1. Download or clone this repository into `wp-content/plugins/wp-shield`.
@@ -60,6 +67,12 @@ This is an early (v0.1), actively-developed starting point — a useful
 baseline for small and mid-size WordPress sites, not a drop-in replacement
 for a dedicated, professionally audited WAF on a high-value or
 high-traffic target. Pull requests and issue reports are welcome.
+
+## Security, contributing and changes
+
+- Report vulnerabilities privately: see [SECURITY.md](SECURITY.md).
+- Want to help? See [CONTRIBUTING.md](CONTRIBUTING.md).
+- What changed: see [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
